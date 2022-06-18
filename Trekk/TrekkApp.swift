@@ -11,7 +11,10 @@ import SwiftUI
 struct TrekkApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+                
+            }
         }
     }
 }
