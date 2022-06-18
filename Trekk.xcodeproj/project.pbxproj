@@ -11,6 +11,8 @@
 		3D0C5049285E520D003F343A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C5048285E520D003F343A /* ContentView.swift */; };
 		3D0C504B285E520F003F343A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C504A285E520F003F343A /* Assets.xcassets */; };
 		3D0C504E285E520F003F343A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C504D285E520F003F343A /* Preview Assets.xcassets */; };
+		3D0C5056285E55BB003F343A /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C5054285E55BB003F343A /* locations.json */; };
+		3D0C5057285E55BB003F343A /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C5055285E55BB003F343A /* tips.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3D0C5048285E520D003F343A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3D0C504A285E520F003F343A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D0C504D285E520F003F343A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D0C5054285E55BB003F343A /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		3D0C5055285E55BB003F343A /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				3D0C5046285E520D003F343A /* TrekkApp.swift */,
 				3D0C5048285E520D003F343A /* ContentView.swift */,
 				3D0C504A285E520F003F343A /* Assets.xcassets */,
+				3D0C5054285E55BB003F343A /* locations.json */,
+				3D0C5055285E55BB003F343A /* tips.json */,
 				3D0C504C285E520F003F343A /* Preview Content */,
 			);
 			path = Trekk;
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D0C504E285E520F003F343A /* Preview Assets.xcassets in Resources */,
+				3D0C5057285E55BB003F343A /* tips.json in Resources */,
+				3D0C5056285E55BB003F343A /* locations.json in Resources */,
 				3D0C504B285E520F003F343A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
