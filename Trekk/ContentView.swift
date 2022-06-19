@@ -45,6 +45,7 @@ struct ContentView: View {
                 .padding(.top)
             
             Text(location.more)
+                .padding()
                 
         }
         .navigationTitle("Discover")
