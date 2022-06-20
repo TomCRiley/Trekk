@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Location: Decodable {
+struct Location: Decodable, Identifiable {
     let id: Int //whole num
     let name: String
     let country: String
