@@ -14,6 +14,8 @@
 		3D0C5056285E55BB003F343A /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C5054285E55BB003F343A /* locations.json */; };
 		3D0C5057285E55BB003F343A /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C5055285E55BB003F343A /* tips.json */; };
 		3D7060B3285E63B500D136DA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7060B2285E63B500D136DA /* Location.swift */; };
+		3D8212852860883D00C577A7 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8212842860883D00C577A7 /* Tip.swift */; };
+		3D8212872860893800C577A7 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8212862860893800C577A7 /* TipsView.swift */; };
 		3DEAF1F6285F895800184C0B /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEAF1F5285F895800184C0B /* Locations.swift */; };
 		3DEAF1F828607E1800184C0B /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEAF1F728607E1800184C0B /* WorldView.swift */; };
 /* End PBXBuildFile section */
@@ -27,6 +29,8 @@
 		3D0C5054285E55BB003F343A /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 		3D0C5055285E55BB003F343A /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		3D7060B2285E63B500D136DA /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		3D8212842860883D00C577A7 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		3D8212862860893800C577A7 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		3DEAF1F5285F895800184C0B /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		3DEAF1F728607E1800184C0B /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +67,8 @@
 			children = (
 				3D0C5046285E520D003F343A /* TrekkApp.swift */,
 				3DEAF1F728607E1800184C0B /* WorldView.swift */,
+				3D8212842860883D00C577A7 /* Tip.swift */,
+				3D8212862860893800C577A7 /* TipsView.swift */,
 				3D0C5048285E520D003F343A /* ContentView.swift */,
 				3DEAF1F5285F895800184C0B /* Locations.swift */,
 				3D7060B2285E63B500D136DA /* Location.swift */,
@@ -157,6 +163,8 @@
 				3D0C5049285E520D003F343A /* ContentView.swift in Sources */,
 				3D7060B3285E63B500D136DA /* Location.swift in Sources */,
 				3DEAF1F828607E1800184C0B /* WorldView.swift in Sources */,
+				3D8212852860883D00C577A7 /* Tip.swift in Sources */,
+				3D8212872860893800C577A7 /* TipsView.swift in Sources */,
 				3DEAF1F6285F895800184C0B /* Locations.swift in Sources */,
 				3D0C5047285E520D003F343A /* TrekkApp.swift in Sources */,
 			);
